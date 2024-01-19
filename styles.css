@@ -1,0 +1,251 @@
+body
+{
+	background-color: #50859e;
+	font-family: 'Roboto', sans-serif;
+	font-size: 14px;
+	color: white;
+	margin: 0;
+}
+h1
+{
+	font-weight: normal;
+	font-size: 28px;
+	font-style: italic;
+ /*RYAN CODE*/
+	font-weight: bold;
+ /*RYAN CODE*/
+	color: white; /*RYAN CODE*/
+	margin-top: 10px;
+	margin-bottom: 20px;
+}
+h2
+{
+	font-family: Verdana, "Segoe UI" , Arial, "Helvetica CY" , "Nimbus Sans L" , Helvetica, sans-serif;
+	font-weight: bold;
+	font-size: 18px;
+	color: white;
+	margin-top: 8px;
+	margin-bottom: 8px;
+}
+h3
+{
+	font-family: Verdana, "Segoe UI" , Arial, "Helvetica CY" , "Nimbus Sans L" , Helvetica, sans-serif;
+	font-weight: bold;
+	font-size: 10px;
+	margin-top: 2px;
+	margin-bottom: 2px;
+}
+a
+{
+	color: #AAEB86;
+	text-decoration: none;
+	transition: 0.2s;
+}
+a:hover
+{
+	text-decoration: underline;
+}
+ol
+{
+	list-style-image: none;
+	list-style-type: decimal;
+	list-style-position: inside;
+	margin-left: 5px;
+	padding-left: 5px;
+	margin-top: 5px;
+}
+input
+{
+	
+	font-size: 13px;
+}
+select
+{
+	color: white;
+	background-color: #354954;
+	font-size: 15px;
+	border: none;
+	transition: 0.2s;
+	appearance: none;
+}
+
+#HeaderSection, .HeaderSectionClass
+{
+	width: 100%;
+}
+#HeaderSectionPadding
+{
+	padding: 8px 10px 0px 25px;
+}
+.second-border {
+	border-bottom: solid white 5px;
+}
+.third-border {
+	border-bottom: solid #980700 5px;
+}
+.HeaderTitle
+{
+	font-weight: bold;
+	font-size: 30px;
+	color: #c5571d;
+}
+#HeaderImage
+{
+	margin: 0;
+	padding: 0;
+	border-width: 0;
+}
+#NavigationSection
+{
+	width: 100%;
+	margin-bottom: 50px;
+}
+#NavigationSection ul
+{
+	list-style: none;
+	margin: 0 0 0 0;
+	padding: 0;
+	font-size: 1em;
+	font-weight: bold;
+	color: #4e4e4e;
+	text-transform: none;
+	float: left;
+	width: 100%;
+}
+#NavigationSection ul li
+{
+	float: left;
+	padding: 10px 20px 5px;
+	margin: 0 5px 0 5px;
+	border-width: 0 0 2px 0;
+ /*RYAN CODE*/
+	border-style: solid;
+	border-color: transparent;
+	-webkit-transition: border-color .2s;
+	-moz-transition: border-color .2s;
+	-ms-transition: border-color .2s;
+	-o-transition: border-color .2s;
+	transition: border-color .2s;
+}
+#NavigationSection ul li a
+{
+	font-size: 16px; /*RYAN CODE*/
+	letter-spacing:1.1px; /*RYAN CODE*/
+	color: white; /*RYAN CODE*/
+	font-weight:400; /*RYAN code*/
+}
+#NavigationSection ul li:hover, #NavigationSection ul li.active, #NavigationSection ul li a:hover
+{
+	border-color: white; /*RYAN CODE - Border underline of header*/
+	text-decoration: none;
+}
+#ContentSection
+{
+	padding: 0 20px 20px 20px;
+}
+.TileContainer
+{
+	width: 500px;
+	height: 100px;
+}
+.TileContainer a
+{
+	font-weight: normal;
+	color: white; /*RYAN CODE*/
+	transition: 0.2s; /*RYAN CODE*/
+}
+.TileContainer a:hover
+{
+	font-weight: normal;
+	text-decoration: none;
+	color: #AAEB86;
+}
+.TileContainerImage
+{
+	
+	background-color:white;
+ /* ICON BACKGROUND COLOR*/
+	border-radius: 10px;
+ /*RYAN CODE*/
+	float: left;
+	margin-right: 12px;
+}
+.TileContainerContent
+{
+	float: right;
+	margin-top: 8px;
+}
+.TileContainerContentTitle
+{
+	font-size: 1.6em;
+}
+.LargeButton /*these are the main buttons on the form*/
+{
+	
+	background-color:white; /*RYAN CODE*/
+	font-family: Arial, Helvetica, sans-serif; /*RYAN CODE*/
+	color: #4d4d4d; /*RYAN CODE*/
+	font-weight: 900; /*RYAN CODE*/
+	padding: 6px 16px 6px 16px;
+	border: solid 2px white; /*RYAN CODE*/
+	border-radius: 5px;
+	box-shadow: 0px 0px 30px;
+	transition: 0.2s;/*RYAN CODE*/
+}
+.LargeButton:hover {
+	background-color: #50859e;
+	color: white;
+	box-shadow: 0px 0px 30px;
+}
+#LogInForm
+{
+	width: 100%;
+	padding-right: 30px;
+}
+#LogInForm td
+{
+	padding: 3px;
+}
+.HeadingBorder
+{
+	padding-bottom: 3px;
+	border-width: 0 0 2px 0;
+	border-style: solid;
+	border-color: white;
+}
+.OrderEntryBlock
+{
+	float: left;
+	width: 700px;
+	padding: 0 15px 15px 15px;
+	margin-right: 20px;
+}
+.ErrorText
+{
+	color: Red;
+}
+.erg-logo { /*RYAN CODE*/
+	background: url("https://img1.wsimg.com/isteam/ip/3191ce5d-c7a3-4cb3-894d-406cf0e13844/Eagle%20Raven%20Global%20Logo%20FINAL%20Full%20Color-12-0001.png/:/cr=t:0%25,l:0%25,w:100%25,h:100%25/rs=w:1300,h:800");
+	background-repeat: no-repeat;
+	background-size: 400px;
+	width: 400px;
+	height: 100px;
+}
+
+.top-head {
+	/*#354954*/
+	background-color: #161616;
+}
+
+#HeaderSectionPadding {
+	background-color: #161616;
+}
+
+/* Tablet and Smartphone Specific */
+@media only screen and (max-device-width: 768px)
+{
+	.HeaderSection, .NavigationSection, .ContentSection, .FooterSection
+	{
+		width: 700px;
+	}
+}
