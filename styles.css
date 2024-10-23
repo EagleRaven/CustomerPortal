@@ -18,6 +18,8 @@ h1
 	margin-top: 10px;
 	margin-bottom: 20px;
 }
+
+
 h2
 {
 	font-family: Verdana, "Segoe UI" , Arial, "Helvetica CY" , "Nimbus Sans L" , Helvetica, sans-serif;
@@ -158,7 +160,7 @@ select
 {
 	font-weight: normal;
 	text-decoration: none;
-	color: #AAEB86;
+	color: #50859E;
 }
 .TileContainerImage
 {
@@ -229,6 +231,20 @@ select
 	/*#354954*/
 	background-color: #FFFFFF;
 }
+
+
+
+/* LOGIN PAGE */
+#ctl00_ContentPlaceHolder1_txtHeader { /* Sign in to your account header */
+	display:none;
+}
+
+#ctl00_ContentPlaceHolder1_lblWelcomeText { /* Welcome back to ERG Sub heading */
+	font-size: 20px;
+}
+
+
+
 
 /* Tablet and Smartphone Specific */
 @media only screen and (max-device-width: 768px)
