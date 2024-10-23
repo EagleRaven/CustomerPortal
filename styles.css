@@ -286,12 +286,13 @@ select
 #LogInForm{
 	box-shadow: 0 0 10px grey;
 	padding: 10px 300px 10px 10px;
-	width: 600px;
+	width: 500px;
 }
 
 /* New Customers */
 #ctl00_ContentPlaceHolder1_pnlNewAccount {
 	width: 300px;
+	display: block;
 }
 
 /* OnTime Logo at bottom */
