@@ -195,6 +195,7 @@ select
 .LargeButton:hover {
 	background-color: white;
 	color: #50859e;
+	box-shadow: 0 0 0;
 }
 #LogInForm
 {
@@ -227,10 +228,6 @@ select
 .top-head {
 	/*#354954*/
 	background-color: #FFFFFF;
-}
-
-#ctl00_ContentPlaceHolder1_UserName{
-	height: 200px;
 }
 
 /* Tablet and Smartphone Specific */
