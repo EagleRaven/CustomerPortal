@@ -184,16 +184,17 @@ select
 	
 	background-color:#50859e; /*RYAN CODE*/
 	font-family: Arial, Helvetica, sans-serif; /*RYAN CODE*/
-	color: #4d4d4d; /*RYAN CODE*/
+	color: white; /*RYAN CODE*/
 	font-weight: 900; /*RYAN CODE*/
 	padding: 6px 16px 6px 16px;
 	border: solid 2px #50859e; /*RYAN CODE*/
 	border-radius: 5px;
+	box-shadow: 0 0 0;
 	transition: 0.2s;/*RYAN CODE*/
 }
 .LargeButton:hover {
 	background-color: white;
-	color: white;
+	color: #50859e;
 }
 #LogInForm
 {
@@ -228,6 +229,9 @@ select
 	background-color: #FFFFFF;
 }
 
+#ctl00_ContentPlaceHolder1_UserName{
+	height: 200px;
+}
 
 /* Tablet and Smartphone Specific */
 @media only screen and (max-device-width: 768px)
