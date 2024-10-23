@@ -182,20 +182,18 @@ select
 .LargeButton /*these are the main buttons on the form*/
 {
 	
-	background-color:white; /*RYAN CODE*/
+	background-color:#50859e; /*RYAN CODE*/
 	font-family: Arial, Helvetica, sans-serif; /*RYAN CODE*/
 	color: #4d4d4d; /*RYAN CODE*/
 	font-weight: 900; /*RYAN CODE*/
 	padding: 6px 16px 6px 16px;
-	border: solid 2px white; /*RYAN CODE*/
+	border: solid 2px #50859e; /*RYAN CODE*/
 	border-radius: 5px;
-	box-shadow: 0px 0px 30px;
 	transition: 0.2s;/*RYAN CODE*/
 }
 .LargeButton:hover {
-	background-color: #50859e;
+	background-color: white;
 	color: white;
-	box-shadow: 0px 0px 30px;
 }
 #LogInForm
 {
