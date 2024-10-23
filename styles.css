@@ -235,15 +235,33 @@ select
 
 
 /* LOGIN PAGE */
-#ctl00_ContentPlaceHolder1_txtHeader { /* Sign in to your account header */
+/* Sign in to your account header */
+#ctl00_ContentPlaceHolder1_txtHeader { 
 	display:none;
 }
 
-#ctl00_ContentPlaceHolder1_lblWelcomeText { /* Welcome back to ERG Sub heading */
+/* Welcome back to ERG Sub heading */
+#ctl00_ContentPlaceHolder1_lblWelcomeText { 
 	font-size: 20px;
+	margin-bottom: 20px;
 }
 
+/* Sign in Labels */
+#ctl00_ContentPlaceHolder1_UserNameLabel, #ctl00_ContentPlaceHolder1_PasswordLabel{ 
+	display: none;
+}
 
+/* Sign in Boxes */
+#ctl00_ContentPlaceHolder1_UserName, #ctl00_ContentPlaceHolder1_Password { 
+	background-color: #F8F9FD;
+	color: grey;
+	padding: 10px;
+	margin-top: 10px;
+	font-size: 16px;
+	border-radius: 10px;
+	border: none;
+	outline: none;
+}
 
 
 /* Tablet and Smartphone Specific */
