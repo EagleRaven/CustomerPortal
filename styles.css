@@ -1,7 +1,17 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing:border-box;
+	font-family: 'Roboto', sans-serif;
+}
+
 body
 {
 	background-color: #FFFFFF;
-	font-family: 'Roboto', sans-serif;
+
 	font-size: 14px;
 	color: #50859E;
 	margin: 0;
@@ -12,7 +22,7 @@ h1
 	font-size: 28px;
 	font-style: italic;
  /*RYAN CODE*/
-	font-weight: bold;
+	/* font-weight: bold; */
  /*RYAN CODE*/
 	color: #50859E; /*RYAN CODE*/
 	margin-top: 10px;
@@ -22,8 +32,8 @@ h1
 
 h2
 {
-	font-family: Verdana, "Segoe UI" , Arial, "Helvetica CY" , "Nimbus Sans L" , Helvetica, sans-serif;
-	font-weight: bold;
+	/* font-family: Verdana, "Segoe UI" , Arial, "Helvetica CY" , "Nimbus Sans L" , Helvetica, sans-serif; */
+	/* font-weight: bold; */
 	font-size: 18px;
 	color: #50859E;
 	margin-top: 8px;
@@ -31,8 +41,8 @@ h2
 }
 h3
 {
-	font-family: Verdana, "Segoe UI" , Arial, "Helvetica CY" , "Nimbus Sans L" , Helvetica, sans-serif;
-	font-weight: bold;
+	/* font-family: Verdana, "Segoe UI" , Arial, "Helvetica CY" , "Nimbus Sans L" , Helvetica, sans-serif; */
+	/* font-weight: bold; */
 	font-size: 10px;
 	margin-top: 2px;
 	margin-bottom: 2px;
@@ -87,7 +97,7 @@ select
 }
 .HeaderTitle
 {
-	font-weight: bold;
+	/* font-weight: bold; */
 	font-size: 30px;
 	color: #c5571d;
 }
@@ -108,7 +118,7 @@ select
 	margin: 0 0 0 0;
 	padding: 0;
 	font-size: 1em;
-	font-weight: bold;
+	/* font-weight: bold; */
 	color: #4e4e4e;
 	text-transform: none;
 	float: left;
@@ -185,14 +195,14 @@ select
 {
 	
 	background-color:#50859e; /*RYAN CODE*/
-	font-family: Arial, Helvetica, sans-serif; /*RYAN CODE*/
 	color: white; /*RYAN CODE*/
-	font-weight: 900; /*RYAN CODE*/
+	font-size: 16px;
 	padding: 6px 16px 6px 16px;
 	border: solid 2px #50859e; /*RYAN CODE*/
 	border-radius: 5px;
 	box-shadow: 0 0 0;
 	transition: 0.2s;/*RYAN CODE*/
+	cursor: pointer;
 }
 .LargeButton:hover {
 	background-color: white;
@@ -210,10 +220,13 @@ select
 }
 .HeadingBorder
 {
+	margin-top: 20px;
+	margin-bottom: 20px;;
 	padding-bottom: 3px;
 	border-width: 0 0 2px 0;
 	border-style: solid;
 	border-color: white;
+	border-bottom: 1px solid #50859E;
 }
 .OrderEntryBlock
 {
@@ -244,6 +257,7 @@ select
 #ctl00_ContentPlaceHolder1_lblWelcomeText { 
 	font-size: 20px;
 	margin-bottom: 20px;
+
 }
 
 /* Sign in Labels */
@@ -263,6 +277,27 @@ select
 	outline: none;
 }
 
+/* New Customers Blurb */
+#ctl00_ContentPlaceHolder1_lblNewAccountDesc {
+	display: none;
+}
+
+/* Login Form */
+#LogInForm{
+	box-shadow: 0 0 10px grey;
+	padding: 10px 300px 10px 10px;
+	width: 600px;
+}
+
+/* New Customers */
+#ctl00_ContentPlaceHolder1_pnlNewAccount {
+	width: 300px;
+}
+
+/* OnTime Logo at bottom */
+#ContentSection a img {
+	display: none;
+}
 
 /* Tablet and Smartphone Specific */
 @media only screen and (max-device-width: 768px)
